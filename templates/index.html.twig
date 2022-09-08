@@ -4,7 +4,7 @@
 
 {% block body %}
     <div class="container">
-        <h1 class="text-center mt-3 border border-dark">Liste des tâches</h1>
+        <h1 class="text-center mt-5 border border-dark">Liste des tâches</h1>
         {% for message in app.flashes('success') %}
             <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
                 {{ message }}
